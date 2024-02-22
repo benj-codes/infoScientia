@@ -1,9 +1,30 @@
-// React component for fetching and displaying data
-
 import React, { Component } from "react";
 import { render } from "react-dom";
+import Header from "./layout/header";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-class App extends Component {
+export class App extends Component {
+  render() {
+    return (
+      <Header />
+    )
+  }
+}
+
+export default App
+
+const container = document.getElementById("app");
+render(<App />, container);
+
+ /* class App extends Component {
+  render() {
+   return console.log('Hello')
+    }
+  }
+ReactDOM.render(<App />, document.getElementById('app')) */
+
+// React component for fetching and displaying data
+ /* class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -51,4 +72,4 @@ class App extends Component {
 export default App;
 
 const container = document.getElementById("app");
-render(<App />, container);
+render(<App />, container); */
