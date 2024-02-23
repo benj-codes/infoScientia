@@ -1,12 +1,16 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { render } from "react-dom";
 import Header from "./layout/header";
+import HomePage from "./layout/homepage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export class App extends Component {
   render() {
     return (
-      <Header />
+      <Fragment>
+        <Header />
+        <HomePage />
+      </Fragment>
     )
   }
 }

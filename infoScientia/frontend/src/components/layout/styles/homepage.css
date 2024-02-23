@@ -1,0 +1,66 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: sans-serif; /* Change this to your preferred font family */
+  }
+  
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .hero-image {
+    /* Set image height to 50vh */
+    height: 50vh;
+    /* Maintain aspect ratio by preserving relative width */
+    object-fit: cover;
+  }
+  
+  /* Header styles (assuming your header has a class of "header") */
+  .header {
+    background-color: #f5f5f5; /* Change this to your desired header color */
+    padding: 1rem 2rem;
+  }
+  
+  /* Flex container styles */
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }  
+  
+  /* Flex item styles */
+  .flex-item {
+    background-color: hsl(0, 0%, 100%); /* Change this to your desired item background color */
+    padding: 1rem;
+    border: 1px solid #ddd; /* Adjust border style and color */
+    width: 400px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    margin: 10px;
+  }
+
+  .p-a-flex-container {
+    align-items: flex-end;
+  }
+
+  /* Button styles (assuming your button has a class of "button") */
+  .button {
+    background-color: #007bff; /* Change this to your desired button color */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .header {
+      padding: 0.5rem 1rem;
+    }
+    .grid-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minimum width for smaller screens */
+    }
+  }  
