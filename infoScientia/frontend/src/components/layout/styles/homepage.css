@@ -41,10 +41,6 @@ body {
     margin: 10px;
   }
 
-  .p-a-flex-container {
-    align-items: flex-end;
-  }
-
   /* Button styles (assuming your button has a class of "button") */
   .button {
     background-color: #007bff; /* Change this to your desired button color */

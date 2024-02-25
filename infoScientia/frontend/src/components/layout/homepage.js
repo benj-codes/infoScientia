@@ -1,5 +1,8 @@
 import React from 'react';
 import './styles/homepage.css';
+import AreaChart from '../AreaChart';
+// import App from "./components/App";
+// import AreaChart from 'infoScientia/frontend/src/components/AreaChart';
 
 function HomePage() {
     return (
@@ -11,8 +14,9 @@ function HomePage() {
         <div className="flex-container">
           <div className="flex-item flex-item-1">
             <h3>Flex item 1 title</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
             <a href="/other-page" className="button">Learn more</a>
+            <AreaChart />
           </div>
           <div className="flex-item flex-item-2">
             <h3>Flex item 2 title</h3>

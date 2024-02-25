@@ -6,10 +6,15 @@ module.exports = {
         exclude: /node_modules/,
         use: {
           loader: "babel-loader"
+        },
+
+        resolve: {
+          extensions: ['.js', '.jsx']
         }
       },
       {
-        test: /\.css$/,
+        
+        test: /\.css$\.js|\.jsx$/, 
         use: ['style-loader', 'css-loader']
       }
     ]

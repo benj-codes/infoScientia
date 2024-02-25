@@ -12,7 +12,7 @@ export class header extends Component {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                    <a className="nav-link active" aria-current="page" href="#">Homepage</a>
+                    <a className="nav-link active" aria-current="page" href="#">Home</a>
                     <a className="nav-link" href="#">Data</a>
                     <a className="nav-link" href="#">Account</a>
                     <a className="nav-link disabled" aria-disabled="true">Disabled</a>
